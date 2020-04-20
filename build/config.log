@@ -1,16 +1,16 @@
-# project cxx_test (0.0.1) configured on Sun Apr 19 17:03:55 2020 by
+# project cxx_test (0.0.1) configured on Mon Apr 20 11:13:48 2020 by
 # waf 2.0.20 (abi 20, python 30703f0 on darwin)
-# using /users/user/git/waf/waf-light configure
+# using /Users/labry/git/waf/waf-light configure
 #
 ----------------------------------------
 Setting top to
-/Users/user/CLionProjects/mutex_example
+/Users/labry/git/waf-test
 ----------------------------------------
 Setting out to
-/Users/user/CLionProjects/mutex_example/build
+/Users/labry/git/waf-test/build
 ----------------------------------------
 Checking for 'clang++' (C++ compiler)
-find program=['clang++'] paths=['/Users/user/.cargo/bin', '/Users/user/anaconda3/bin', '/Users/user/anaconda3/condabin', '/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims', '/usr/local/var/pyenv/shims', '/usr/local/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/opt/X11/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73'] var='CXX' -> ['/usr/bin/clang++']
+find program=['clang++'] paths=['/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/usr/local/go/bin', '/opt/X11/bin', '/Library/Apple/usr/bin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/Users/labry/.cargo/bin', '/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/usr/local/go/bin'] var='CXX' -> ['/usr/bin/clang++']
 ['/usr/bin/clang++', '-dM', '-E', '-']
 out: #define OBJC_NEW_PROPERTIES 1
 #define _LP64 1
@@ -344,7 +344,7 @@ out: #define OBJC_NEW_PROPERTIES 1
 #define __UINT_LEAST8_MAX__ 255
 #define __UINT_LEAST8_TYPE__ unsigned char
 #define __USER_LABEL_PREFIX__ _
-#define __VERSION__ "4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.32.29)"
+#define __VERSION__ "4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.32.59)"
 #define __WCHAR_MAX__ 2147483647
 #define __WCHAR_TYPE__ int
 #define __WCHAR_WIDTH__ 32
@@ -359,7 +359,7 @@ out: #define OBJC_NEW_PROPERTIES 1
 #define __clang_major__ 11
 #define __clang_minor__ 0
 #define __clang_patchlevel__ 3
-#define __clang_version__ "11.0.3 (clang-1103.0.32.29)"
+#define __clang_version__ "11.0.3 (clang-1103.0.32.59)"
 #define __code_model_small_ 1
 #define __core2 1
 #define __core2__ 1
@@ -375,178 +375,20 @@ out: #define OBJC_NEW_PROPERTIES 1
 #define __x86_64 1
 #define __x86_64__ 1
 
-find program=['llvm-ar', 'ar'] paths=['/Users/user/.cargo/bin', '/Users/user/anaconda3/bin', '/Users/user/anaconda3/condabin', '/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims', '/usr/local/var/pyenv/shims', '/usr/local/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/opt/X11/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73'] var='AR' -> ['/usr/bin/ar']
-find program=['ar'] paths=['/Users/user/.cargo/bin', '/Users/user/anaconda3/bin', '/Users/user/anaconda3/condabin', '/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims', '/usr/local/var/pyenv/shims', '/usr/local/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/opt/X11/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73'] var='AR' -> ['/usr/bin/ar']
+find program=['llvm-ar', 'ar'] paths=['/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/usr/local/go/bin', '/opt/X11/bin', '/Library/Apple/usr/bin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/Users/labry/.cargo/bin', '/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/usr/local/go/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/usr/local/go/bin', '/opt/X11/bin', '/Library/Apple/usr/bin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/Users/labry/.cargo/bin', '/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/usr/local/go/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/clang++
 ----------------------------------------
-Checking for header stdio.h
-==>
-#include <stdio.h>
-
-int main(int argc, char **argv) {
-	(void)argc; (void)argv;
-	return 0;
-}
-
-<==
-[1/2] Compiling [32mbuild/.conf_check_ace620ad98647ab83e828ffd2234877f/test.cpp[0m
-
-['/usr/bin/clang++', '../test.cpp', '-c', '-o/Users/user/CLionProjects/mutex_example/build/.conf_check_ace620ad98647ab83e828ffd2234877f/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ace620ad98647ab83e828ffd2234877f/testbuild/testprog[0m
-
-['/usr/bin/clang++', 'test.cpp.1.o', '-o/Users/user/CLionProjects/mutex_example/build/.conf_check_ace620ad98647ab83e828ffd2234877f/testbuild/testprog']
-yes
+Checking for program 'pkg-config'
+/usr/local/bin/pkg-config
+find program=['pkg-config'] paths=['/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/usr/local/go/bin', '/opt/X11/bin', '/Library/Apple/usr/bin', '/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Users/labry/Downloads/otter-3.3f/bin', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin', '/Users/labry/.cargo/bin', '/Users/labry/anaconda3/bin', '/Users/labry/anaconda3/condabin', '/opt/local/bin', '/opt/local/sbin', '/usr/local/go/bin'] var='PKGCONFIG' -> ['/usr/local/bin/pkg-config']
 ----------------------------------------
-Checking for program 'dpkg-architecture'
+Checking for 'libndn-cxx'
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'libndn-cxx']
+err: Package libndn-cxx was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libndn-cxx.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libndn-cxx' found
+
 not found
-find program=['dpkg-architecture'] paths=['/Users/user/.cargo/bin', '/Users/user/anaconda3/bin', '/Users/user/anaconda3/condabin', '/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims', '/usr/local/var/pyenv/shims', '/usr/local/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73', '/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/Library/TeX/texbin', '/opt/X11/bin', '/Users/user/git/macvim/src/MacVim/build/Release/MacVim.app/Contents/MacOS', '/Users/user/workspace_onos/onos/tools/build', '/usr/local/maven/bin', '/Users/labry/Downloads/MacVim-snapshot-73'] var='DPKG_ARCHITECTURE' -> None
-from /Users/user/CLionProjects/mutex_example: Could not find the program ['dpkg-architecture']
-----------------------------------------
-Checking boost includes
-1.66.0
-----------------------------------------
-Checking boost libs
-Found the boost path in /usr/local/lib with the libraries:
-    /usr/local/lib/libboost_atomic-mt.a
-    /usr/local/lib/libboost_atomic-mt.dylib
-    /usr/local/lib/libboost_chrono-mt.a
-    /usr/local/lib/libboost_chrono-mt.dylib
-    /usr/local/lib/libboost_chrono.a
-    /usr/local/lib/libboost_chrono.dylib
-    /usr/local/lib/libboost_container-mt.a
-    /usr/local/lib/libboost_container-mt.dylib
-    /usr/local/lib/libboost_container.a
-    /usr/local/lib/libboost_container.dylib
-    /usr/local/lib/libboost_context-mt.a
-    /usr/local/lib/libboost_context-mt.dylib
-    /usr/local/lib/libboost_coroutine-mt.a
-    /usr/local/lib/libboost_coroutine-mt.dylib
-    /usr/local/lib/libboost_coroutine.a
-    /usr/local/lib/libboost_coroutine.dylib
-    /usr/local/lib/libboost_date_time-mt.a
-    /usr/local/lib/libboost_date_time-mt.dylib
-    /usr/local/lib/libboost_date_time.a
-    /usr/local/lib/libboost_date_time.dylib
-    /usr/local/lib/libboost_exception-mt.a
-    /usr/local/lib/libboost_exception.a
-    /usr/local/lib/libboost_fiber-mt.a
-    /usr/local/lib/libboost_fiber-mt.dylib
-    /usr/local/lib/libboost_filesystem-mt.a
-    /usr/local/lib/libboost_filesystem-mt.dylib
-    /usr/local/lib/libboost_filesystem.a
-    /usr/local/lib/libboost_filesystem.dylib
-    /usr/local/lib/libboost_graph-mt.a
-    /usr/local/lib/libboost_graph-mt.dylib
-    /usr/local/lib/libboost_graph.a
-    /usr/local/lib/libboost_graph.dylib
-    /usr/local/lib/libboost_iostreams-mt.a
-    /usr/local/lib/libboost_iostreams-mt.dylib
-    /usr/local/lib/libboost_iostreams.a
-    /usr/local/lib/libboost_iostreams.dylib
-    /usr/local/lib/libboost_locale-mt.a
-    /usr/local/lib/libboost_locale-mt.dylib
-    /usr/local/lib/libboost_log-mt.a
-    /usr/local/lib/libboost_log-mt.dylib
-    /usr/local/lib/libboost_log.a
-    /usr/local/lib/libboost_log.dylib
-    /usr/local/lib/libboost_log_setup-mt.a
-    /usr/local/lib/libboost_log_setup-mt.dylib
-    /usr/local/lib/libboost_log_setup.a
-    /usr/local/lib/libboost_log_setup.dylib
-    /usr/local/lib/libboost_math_c99-mt.a
-    /usr/local/lib/libboost_math_c99-mt.dylib
-    /usr/local/lib/libboost_math_c99.a
-    /usr/local/lib/libboost_math_c99.dylib
-    /usr/local/lib/libboost_math_c99f-mt.a
-    /usr/local/lib/libboost_math_c99f-mt.dylib
-    /usr/local/lib/libboost_math_c99f.a
-    /usr/local/lib/libboost_math_c99f.dylib
-    /usr/local/lib/libboost_math_c99l-mt.a
-    /usr/local/lib/libboost_math_c99l-mt.dylib
-    /usr/local/lib/libboost_math_c99l.a
-    /usr/local/lib/libboost_math_c99l.dylib
-    /usr/local/lib/libboost_math_tr1-mt.a
-    /usr/local/lib/libboost_math_tr1-mt.dylib
-    /usr/local/lib/libboost_math_tr1.a
-    /usr/local/lib/libboost_math_tr1.dylib
-    /usr/local/lib/libboost_math_tr1f-mt.a
-    /usr/local/lib/libboost_math_tr1f-mt.dylib
-    /usr/local/lib/libboost_math_tr1f.a
-    /usr/local/lib/libboost_math_tr1f.dylib
-    /usr/local/lib/libboost_math_tr1l-mt.a
-    /usr/local/lib/libboost_math_tr1l-mt.dylib
-    /usr/local/lib/libboost_math_tr1l.a
-    /usr/local/lib/libboost_math_tr1l.dylib
-    /usr/local/lib/libboost_prg_exec_monitor-mt.a
-    /usr/local/lib/libboost_prg_exec_monitor-mt.dylib
-    /usr/local/lib/libboost_prg_exec_monitor.a
-    /usr/local/lib/libboost_prg_exec_monitor.dylib
-    /usr/local/lib/libboost_program_options-mt.a
-    /usr/local/lib/libboost_program_options-mt.dylib
-    /usr/local/lib/libboost_program_options.a
-    /usr/local/lib/libboost_program_options.dylib
-    /usr/local/lib/libboost_random-mt.a
-    /usr/local/lib/libboost_random-mt.dylib
-    /usr/local/lib/libboost_random.a
-    /usr/local/lib/libboost_random.dylib
-    /usr/local/lib/libboost_regex-mt.a
-    /usr/local/lib/libboost_regex-mt.dylib
-    /usr/local/lib/libboost_regex.a
-    /usr/local/lib/libboost_regex.dylib
-    /usr/local/lib/libboost_serialization-mt.a
-    /usr/local/lib/libboost_serialization-mt.dylib
-    /usr/local/lib/libboost_serialization.a
-    /usr/local/lib/libboost_serialization.dylib
-    /usr/local/lib/libboost_signals-mt.a
-    /usr/local/lib/libboost_signals-mt.dylib
-    /usr/local/lib/libboost_signals.a
-    /usr/local/lib/libboost_signals.dylib
-    /usr/local/lib/libboost_stacktrace_addr2line-mt.a
-    /usr/local/lib/libboost_stacktrace_addr2line-mt.dylib
-    /usr/local/lib/libboost_stacktrace_addr2line.a
-    /usr/local/lib/libboost_stacktrace_addr2line.dylib
-    /usr/local/lib/libboost_stacktrace_basic-mt.a
-    /usr/local/lib/libboost_stacktrace_basic-mt.dylib
-    /usr/local/lib/libboost_stacktrace_basic.a
-    /usr/local/lib/libboost_stacktrace_basic.dylib
-    /usr/local/lib/libboost_stacktrace_noop-mt.a
-    /usr/local/lib/libboost_stacktrace_noop-mt.dylib
-    /usr/local/lib/libboost_stacktrace_noop.a
-    /usr/local/lib/libboost_stacktrace_noop.dylib
-    /usr/local/lib/libboost_system-mt.a
-    /usr/local/lib/libboost_system-mt.dylib
-    /usr/local/lib/libboost_system.a
-    /usr/local/lib/libboost_system.dylib
-    /usr/local/lib/libboost_test_exec_monitor-mt.a
-    /usr/local/lib/libboost_test_exec_monitor.a
-    /usr/local/lib/libboost_thread-mt.a
-    /usr/local/lib/libboost_thread-mt.dylib
-    /usr/local/lib/libboost_timer-mt.a
-    /usr/local/lib/libboost_timer-mt.dylib
-    /usr/local/lib/libboost_timer.a
-    /usr/local/lib/libboost_timer.dylib
-    /usr/local/lib/libboost_type_erasure-mt.a
-    /usr/local/lib/libboost_type_erasure-mt.dylib
-    /usr/local/lib/libboost_type_erasure.a
-    /usr/local/lib/libboost_type_erasure.dylib
-    /usr/local/lib/libboost_unit_test_framework-mt.a
-    /usr/local/lib/libboost_unit_test_framework-mt.dylib
-    /usr/local/lib/libboost_unit_test_framework.a
-    /usr/local/lib/libboost_unit_test_framework.dylib
-    /usr/local/lib/libboost_wave-mt.a
-    /usr/local/lib/libboost_wave-mt.dylib
-    /usr/local/lib/libboost_wserialization-mt.a
-    /usr/local/lib/libboost_wserialization-mt.dylib
-    /usr/local/lib/libboost_wserialization.a
-    /usr/local/lib/libboost_wserialization.dylib
-Trying pattern boost_locale(-xgcc[0-9]{0,3})-1_66.dylib$
-Trying pattern boost_locale-1_66.dylib$
-Trying pattern boost_locale(-xgcc[0-9]{0,3}).dylib$
-Trying pattern boost_locale.dylib$
-Trying pattern boost_locale.dylib$
-Trying pattern boost_locale
-Found boost lib /usr/local/lib/libboost_locale-mt.dylib
-ok
-----------------------------------------
-Checking for boost linkage
-ok
+from /Users/labry/git/waf-test: The configuration failed

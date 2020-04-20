@@ -6,6 +6,8 @@
 VERSION='0.0.1'
 APPNAME='cxx_test'
 
+from waflib import Utils
+import os
 # these variables are mandatory ('/' are converted automatically)
 top = '.'
 out = 'build'
@@ -23,6 +25,12 @@ def dosomething(ctx):
 def configure(conf):
 	conf.load('compiler_cxx boost')
 	USED_BOOST_LIBS = ['locale']
+
+	if 'PKG_CONFIG_PATH' not in os.environ:
+		os.environ['PKG_CONFIG_PATH'] = Utils.subst_vars('/usr/local/bin/pkgconfig', conf.env)
+	conf.check_cfg(package='libndn-cxx', args=['--cflags', '--libs'],
+				   uselib_store='NDN_CXX', mandatory=True)
+
 	conf.check(header_name='stdio.h', features='cxx cxxprogram', mandatory=False)
 	conf.check_boost(lib=USED_BOOST_LIBS, mandatory=True, mt=True)
 
@@ -43,7 +51,7 @@ def build(bld):
 		includes='.',
 		features=['cxx','cxxprogram'],
 		cxxflags=['-std=c++11', '-pthread'],
-		use='BOOST mylib-object',
+		use='NDN_CXX BOOST mylib-object',
 		)
 	#bld.stlib(target='mylib', source='a.cpp')
 

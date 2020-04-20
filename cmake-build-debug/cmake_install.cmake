@@ -1,4 +1,4 @@
-# Install script for directory: /Users/user/CLionProjects/mutex_example
+# Install script for directory: /Users/labry/git/waf-test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/user/CLionProjects/mutex_example/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/labry/git/waf-test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

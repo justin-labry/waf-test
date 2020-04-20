@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/user/CLionProjects/mutex_example/mutex_example.cpp" "/Users/user/CLionProjects/mutex_example/cmake-build-debug/CMakeFiles/mutex_example.dir/mutex_example.cpp.o"
+  "/Users/labry/git/waf-test/mutex_example.cpp" "/Users/labry/git/waf-test/cmake-build-debug/CMakeFiles/mutex_example.dir/mutex_example.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
